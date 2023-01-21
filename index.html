@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e402a8b4e9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="Container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Game Artist</p>
+            <h1>Hi, I'm <span>Biswajit Tripathy</span><br>from Odisha, India .</h1>
+        </div>
+    </div>
+</div>
+
+<! --- ----about------- -- >
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Background.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an enthusiastic, self-motivated, reliable, responsible and hardworking person.
+                I am a mature team worker and adaptable to all challenging situations. I am able to work
+                well both in a team environment as well as using own initiative.
+                I am able to work well under pressure and adhere to strict deadlines.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Unreal Engine</span><br></li>
+                        <li><span>premiere Pro</span><br></li>
+                        <li><span>After Effects</span><br></li>
+                        <li><span>3ds MAX</span><br></li>
+                       
+                    </ul>
+                </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>OCT 2019 - MAR 2020</span><br>Digital Marketting at AUROIN</li>
+                            <li><span>JAN 2021 - JULY 2022</span><br>Indexing Associates at BLACK KNIGHT Financial services</li>
+                           
+                        </ul>
+                    </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>JUNE 2006 - JUNE 2013</span><br>D.A.V Public School</li>
+                                <li><span>JULY 2013 - JULY 2015</span><br>Kalinga Bharati Residential College (+2 Science)</li>
+                                <li><span>AUG 2015 - AUG 2019</span><br>ITER, SOA University</li>
+                                <li><span>JAN 2022 - CURRENT</span><br>MAAC (VFX Course with Unreal Engine and Unity)</li>
+                               
+                            </ul>
+                        </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<! --- -----services----- --- >
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                <h2>Digital Marketting</h2>
+                <p>After completing B.Tech, I was in AUROIN as a digital marketter for 6months.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+                <h2>Indexing Associates</h2>
+                <p>I was in Black knight Financial Services as indexing associates for 1year 6months.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<! --- ----------- portfolio--------- ---  >
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <h1 class="sub-title">*3ds MAX</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Can.jpg">
+                <div class="layer">
+                    <h3>CAN Model</h3>
+                    <p>It is a model which I made in 3ds max.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Cart.jpg">
+                <div class="layer">
+                    <h3>CART Model</h3>
+                    <p>It is a model which I made in 3ds max.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Glass and Bottle.jpg">
+                <div class="layer">
+                    <h3>WINE GLASS AND BOTTLE Model</h3>
+                    <p>It is a model which I made in 3ds max.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/House.jpg">
+                <div class="layer">
+                    <h3>HOUSE Model</h3>
+                    <p>It is a model which I made in 3ds max.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Wooden Port.jpg">
+                <div class="layer">
+                    <h3>WOODEN PORT Model</h3>
+                    <p>It is a model which I made in 3ds max.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+       </div>
+       <a href="#" class="btn">See more</a>
+
+       <h2 class="sub-title">*Premiere Pro</h2>
+      
+       <div class="work-list">
+        <div class="work">
+            <video src="images/Color Correction.mp4" controls></video>
+            <div class="layer">
+                <h4>Color Correction</h4>
+                <p>I have done color correction of a shooting scene.</p>
+                <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+      </div>
+        <div class="work-list">
+            <div class="work">
+                <video src="images/Putting Natural Sounds.mp4" controls></video>
+                <div class="layer">
+                    <h4>Putting Natural Sounds</h4>
+                    <p>I have putted my own made sounds to a video.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+       
+        
+    </div>
+</div>
+
+<! ---- ------contacts------- --- >
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> biswajitt441@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7377584110</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/biswajit-tripathy-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Biswajit. MY PORTFOLIO <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right = "0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzc19C-Qi8Fp5eA1vNrJ2_TsAlJa0OqzEc20ctypXHetgXPUxiLuqVMke9VhFYZdr-A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
